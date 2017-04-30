@@ -11,3 +11,5 @@ Project will be developed in [HaXe](https://haxe.org/download/)
 [Native HaXe IDE](http://haxedevelop.org/)
 
 [Latest JRE](https://www.java.com/en/download/manual.jsp)
+
+[Getting started with HaXe game development](https://www.youtube.com/watch?v=HociBvvrZyE)
