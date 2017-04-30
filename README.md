@@ -5,3 +5,7 @@ Project is a game that implements different game genres (Tetris, Astroid Shooter
 # Environment
 
 Project will be developed in [HaXe](https://haxe.org/download/)
+
+# Extras
+
+[Native HaXe IDE](http://haxedevelop.org/)
