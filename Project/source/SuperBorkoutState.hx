@@ -5,7 +5,7 @@ import flixel.FlxState;
 import flixel.text.FlxText;
 import flixel.util.FlxColor;
 
-class PlayState extends FlxState {
+class SuperBorkoutState extends FlxState {
 	var title:FlxText;
 
 	override public function create():Void {
