@@ -8,6 +8,8 @@ Project will be developed in [HaXe](https://haxe.org/download/)
 
 # Extras
 
+[HaXe Documentation](https://haxe.org/manual/introduction.html)
+
 [Native HaXe IDE](http://haxedevelop.org/)
 
 [Latest JRE](https://www.java.com/en/download/manual.jsp)
