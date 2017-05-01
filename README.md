@@ -4,7 +4,7 @@ Project is a game that implements different game genres (Tetris, Astroid Shooter
 
 # Environment
 
-Project will be developed in [HaXe](https://haxe.org/download/)
+Project will be developed in [HaXe](https://haxe.org/download/) using the [HaXeFlixel](http://haxeflixel.com/) API
 
 # Extras
 
@@ -13,8 +13,6 @@ Project will be developed in [HaXe](https://haxe.org/download/)
 [Native HaXe IDE](http://haxedevelop.org/)
 
 [Latest JRE](https://www.java.com/en/download/manual.jsp)
-
-[HaXeFlixel](http://haxeflixel.com/)
 
 [Getting started with HaXe game development w/ HaXeFlixel](https://www.youtube.com/watch?v=Ydh4N22WcBI&list=PLS9MbmO_ssyBcgdfrd4beEUeQtsdvM2st)
 
