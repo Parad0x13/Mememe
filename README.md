@@ -12,6 +12,10 @@ Project will be developed in [HaXe](https://haxe.org/download/)
 
 [Latest JRE](https://www.java.com/en/download/manual.jsp)
 
+[HaxeFlixel](http://haxeflixel.com/)
+
+# Depricated
+
 [Getting started with HaXe game development w/ heaps](https://www.youtube.com/watch?v=HociBvvrZyE)
 
 [Heaps](https://github.com/HeapsIO/heaps)
