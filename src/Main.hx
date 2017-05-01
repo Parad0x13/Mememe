@@ -1,29 +1,38 @@
+import h2d.Bitmap;
+import h2d.Sprite;
 import h2d.Text;
+import h2d.Tile;
+import hxd.App;
 import hxd.Res;
 import hxd.res.Font;
+import hxd.res.Image;
 
 import js.Lib;
 
-import hxd.App;
-class Main extends App {
-	var text : Text;
+class Utility {
+	public static function dynamicallyScaleToWidth(input: Sprite, newWidth: Float) {
+		var widthRatio = newWidth / input.getSize().width;
+		input.setScale(widthRatio);
+	}
 
+	public static function generateBitmap(image: Image, ?width: Float) {
+		trace(width);
+	}
+}
+
+class Main extends App {
 	override function init() {
 		Res.initEmbed();
-		var font = Res.ComicSans.build(256);
-		text = new Text(font, s2d);
-		text.text = "Hello World";
-		text.textColor = 0xFF0000;
+
+		var logo = Res.wizard.toTile();
+		var bitmap = new Bitmap(logo, s2d);
+		Utility.dynamicallyScaleToWidth(bitmap, 200);
+
+		//var test = Utility.generateBitmap(Res.wizard, 20);
 	}
 
 	override function update(dt: Float) {
-		var scaleAmount = 0.01;
-		if (text.scaleX < 3.0) {
-			text.setScale(text.scaleX + scaleAmount);
-		}
-		else {
-			text.setScale(1.0);
-		}
+		//
 	}
 
 	static function main() {
