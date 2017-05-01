@@ -1,4 +1,4 @@
-package;
+package bg.game.mememe;
 
 import flixel.FlxGame;
 import openfl.display.Sprite;

@@ -1,4 +1,4 @@
-package;
+package bg.game.mememe;
 
 import flixel.FlxG;
 import flixel.FlxState;
