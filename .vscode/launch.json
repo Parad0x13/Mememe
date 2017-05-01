@@ -1,0 +1,11 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "html5 build",
+			"type": "fdb",
+			"request": "launch",
+			"preLaunchTask": "html5 debug"
+		},
+	]
+}
