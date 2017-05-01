@@ -8,7 +8,7 @@ Project will be developed in [HaXe](https://haxe.org/download/) using the [HaXeF
 
 # Extras
 
-[HaXe Documentation](https://haxe.org/manual/introduction.html)
+[HaXe Documentation](https://haxe.org/manual/introduction.html), or [HaXe Language Features](https://haxe.org/manual/lf.html)
 
 [Native HaXe IDE](http://haxedevelop.org/)
 
