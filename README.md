@@ -14,8 +14,10 @@ Project will be developed in [HaXe](https://haxe.org/download/)
 
 [HaXeFlixel](http://haxeflixel.com/)
 
+[Getting started with HaXe game development w/ HaXeFlixel](https://www.youtube.com/watch?v=Ydh4N22WcBI&list=PLS9MbmO_ssyBcgdfrd4beEUeQtsdvM2st)
+
 # Depricated
 
-[Getting started with HaXe game development w/ heaps](https://www.youtube.com/watch?v=HociBvvrZyE)
-
 [Heaps](https://github.com/HeapsIO/heaps)
+
+[Getting started with HaXe game development w/ heaps](https://www.youtube.com/watch?v=HociBvvrZyE)
