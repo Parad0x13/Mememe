@@ -12,7 +12,7 @@ Project will be developed in [HaXe](https://haxe.org/download/)
 
 [Latest JRE](https://www.java.com/en/download/manual.jsp)
 
-[HaxeFlixel](http://haxeflixel.com/)
+[HaXeFlixel](http://haxeflixel.com/)
 
 # Depricated
 
