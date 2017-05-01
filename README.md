@@ -12,6 +12,8 @@ Project will be developed in [HaXe](https://haxe.org/download/) using the [HaXeF
 
 [Native HaXe IDE](http://haxedevelop.org/)
 
+[Visual Studio Code](https://code.visualstudio.com/)
+
 [Latest JRE](https://www.java.com/en/download/manual.jsp)
 
 [Getting started with HaXe game development w/ HaXeFlixel](https://www.youtube.com/watch?v=Ydh4N22WcBI&list=PLS9MbmO_ssyBcgdfrd4beEUeQtsdvM2st)
