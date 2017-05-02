@@ -9,7 +9,6 @@ import flixel.util.FlxColor;
 class Paddle extends FlxSprite {
 	override public function update(elapsed:Float):Void {
 		super.update(elapsed);
-		trace("aaa");
 	}
 }
 
