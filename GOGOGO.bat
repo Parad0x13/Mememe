@@ -1,1 +1,1 @@
-start code ./Project/
+start code Project/
