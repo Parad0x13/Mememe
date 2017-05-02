@@ -1,14 +1,4 @@
-package bg.game.mememe;
-
-import flixel.FlxG;
-import flixel.FlxState;
-import flixel.FlxSprite;
-import flixel.text.FlxText;
-import flixel.util.FlxColor;
-import flixel.tweens.FlxTween;
-import flixel.tweens.FlxEase;
-import flixel.group.FlxGroup;
-import bg.game.mememe.menu.MenuState;
+package bg.game.mememe.states;
 
 // [BUG] It's possible to force the ball through a wall with the paddle
 // Possibly make this a feature instead. "Oh no! You lost your bork! FAIL"
@@ -91,7 +81,7 @@ class Wall extends FlxSprite {
 	}
 }
 
-class SuperBorkoutState extends FlxState {
+class SuperBorkoutState extends MememeState {
 	var paddle:Paddle;
 	var ball:Ball;		// [TODO] Make this an array so we can have many balls
 	var walls:FlxTypedGroup<FlxSprite>;
@@ -99,9 +89,9 @@ class SuperBorkoutState extends FlxState {
 
 	override public function create():Void {
 		super.create();
-		FlxG.mouse.visible = false;
-		FlxG.sound.playMusic(AssetPaths.SuperBorkWorld__ogg);
-		FlxG.sound.music.volume = 0.1;
+
+		manageMouse(false);
+		manageMusic(AssetPaths.SuperBorkWorld__ogg, 0.1);
 
 		walls = new FlxTypedGroup<FlxSprite>();
 
