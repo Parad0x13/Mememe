@@ -46,7 +46,7 @@ class Block extends FlxSprite {
 		this.width = width;
 		this.height = height;
 
-		var color = FlxColor.fromString(blockColors[Std.random(blockColors.length)]);
+		var color = FlxColor.fromString(blockColors.random());
 		makeGraphic(width, height, color);
 		solid = immovable = true;
 	}
@@ -88,12 +88,24 @@ class SuperBorkoutState extends MememeState {
 	var ball:Ball;		// [TODO] Make this an array so we can have many balls
 	var walls:FlxTypedGroup<FlxSprite>;
 	var blocks:FlxTypedGroup<FlxSprite>;
+	var bork_SFXs:Array<FlxSound>;
 
 	override public function create():Void {
 		super.create();
 
 		manageMouse(false);
 		manageMusic(AssetPaths.SuperBorkWorld__ogg, 0.1);
+
+		bork_SFXs = [
+			FlxG.sound.load(AssetPaths.Bork01__ogg),
+			FlxG.sound.load(AssetPaths.Bork02__ogg),
+			FlxG.sound.load(AssetPaths.Bork03__ogg),
+			FlxG.sound.load(AssetPaths.Bork04__ogg),
+			FlxG.sound.load(AssetPaths.Bork05__ogg),
+			FlxG.sound.load(AssetPaths.Bork06__ogg),
+			FlxG.sound.load(AssetPaths.Bork07__ogg),
+			FlxG.sound.load(AssetPaths.Bork08__ogg),
+		];
 
 		walls = new FlxTypedGroup<FlxSprite>();
 
@@ -154,6 +166,7 @@ class SuperBorkoutState extends MememeState {
 	public function ball_block_overlap(ball:Ball, block:Block):Void {
 		block.kill();
 		blocks.remove(block, true);
+		bork_SFXs.random().play();
 	}
 
 	public function ball_wall_overlap(ball:Ball, wall:Wall):Void {
