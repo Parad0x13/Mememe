@@ -3,12 +3,10 @@ package bg.game.mememe;
 import flixel.FlxG;
 import flixel.FlxState;
 import flixel.FlxSprite;
-import flixel.FlxObject;
 import flixel.text.FlxText;
 import flixel.util.FlxColor;
 import flixel.tweens.FlxTween;
 import flixel.tweens.FlxEase;
-import flixel.math.FlxPoint;
 import flixel.group.FlxGroup;
 import bg.game.mememe.menu.MenuState;
 
