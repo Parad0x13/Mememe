@@ -18,6 +18,8 @@ Project will be developed in [HaXe](https://haxe.org/download/) using the [HaXeF
 
 [Getting started with HaXe game development w/ HaXeFlixel](https://www.youtube.com/watch?v=Ydh4N22WcBI&list=PLS9MbmO_ssyBcgdfrd4beEUeQtsdvM2st)
 
+[Clang/LLVM](https://clang.llvm.org/)
+
 [YouTube mp3 downloader](https://ytmp3.cc/)
 
 # Depricated
