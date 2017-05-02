@@ -1,7 +1,8 @@
 package bg.game.mememe.menu;
 
-import flixel.*;
-import flixel.ui.*;
+import flixel.ui.FlxButton;
+import flixel.FlxG;
+import flixel.FlxState;
 
 class MenuState extends FlxState
 {
@@ -17,6 +18,6 @@ class MenuState extends FlxState
 
      private function clickPlay():Void
     {
-        FlxG.switchState(new PlayState());
+        FlxG.switchState(new TextScale());
     }
 }
