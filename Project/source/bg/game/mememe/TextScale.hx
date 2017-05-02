@@ -6,15 +6,13 @@ import flixel.text.FlxText;
 
 import bg.game.mememe.menu.MenuState;
 
-class TextScale extends FlxState
-{
-	var text : FlxText; 
+class TextScale extends FlxState {
+	var text : FlxText;
 	var incXScale : Float = 0.01;
 	var screenText : String = "Hello World: ";
 	var menu : MenuState;
 
-	override public function create():Void
-	{
+	override public function create():Void {
 		super.create();
 
 		text = new flixel.text.FlxText(0, 0, 0, screenText, 6);
@@ -22,8 +20,7 @@ class TextScale extends FlxState
 		add(text);
 	}
 
-	override public function update(elapsed:Float):Void
-	{
+	override public function update(elapsed:Float):Void {
 		super.update(elapsed);
 		text.text = screenText + (new String("" + text.scale.x)).substring(0, 10);
 

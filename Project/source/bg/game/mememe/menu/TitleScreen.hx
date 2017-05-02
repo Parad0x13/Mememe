@@ -1,6 +1,5 @@
 package bg.game.mememe.menu;
 
-class TitleScreen
-{
-
+class TitleScreen {
+	//
 }
