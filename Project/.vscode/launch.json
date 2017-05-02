@@ -7,5 +7,11 @@
 			"request": "launch",
 			"preLaunchTask": "html5 debug"
 		},
+		{
+			"name": "flash debug (build only)",
+			"type": "fdb",
+			"request": "launch",
+			"preLaunchTask": "flash debug (build only)"
+		},
 	]
 }
