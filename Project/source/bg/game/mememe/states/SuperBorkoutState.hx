@@ -23,11 +23,13 @@ class Ball extends FlxSprite {
 	public function new(x = 100, y = 100) {
 		super();
 
-		loadGraphic(AssetPaths.TennisBall__png);
+		loadGraphic(AssetPaths.SuperBorkout_Ball__png, true, 50, 50);
+		animation.add("wink", [0, 1, 2, 3, 4, 5, 4, 3, 2, 1], 7, true);
+		animation.play("wink");
+
 		this.x = x;
 		this.y = y;
 
-		angularVelocity = FlxG.random.float() * 50 - 150;
 		velocity.set(300, 300);
 		elasticity = 1;
 	}
