@@ -14,14 +14,7 @@ class MenuState extends FlxState {
 		super.create();
 	}
 
-<<<<<<< HEAD
-     private function clickPlay():Void
-    {
-        FlxG.switchState(new TextScale());
-    }
-=======
 	private function clickPlay():Void {
-		FlxG.switchState(new PlayState());
+		FlxG.switchState(new SuperBorkoutState());
 	}
->>>>>>> origin/master
 }
